@@ -24,7 +24,7 @@ Keras
 The data will first be process and read into memory. The data will be split into testing and training set via #train_test_split from sklearn. Apply CNN to build a compiled neural network model based on different approaches (see below). This neural network then fitted in training set. The model will be used to evaluate neural network performance using testing data. 
 
 ## Different Experiment Approaches 
-
+check out: https://youtu.be/k8j0Nhqfyvg 
 For get_model function, I tried on different approaches:
 1.  convolutional and pooling layers = 1, 1
     numbers and sizes of filters for convolutional layers = 32, (3, 3)
