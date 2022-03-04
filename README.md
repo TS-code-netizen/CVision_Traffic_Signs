@@ -1,5 +1,11 @@
-For load_data function, I think it would be much easier to use Pillow with Numpy for Tensorflow plus Keras framework would be a better option. 
-First, OpenCV is a library that better used at real-time computer vision in DNN or Caffe framework. Second, the 3-color channel for OpenCV is BGR, require to convert to RGB. 
+
+
+
+
+
+
+
+## Different Experimentation Approaches 
 
 For get_model function, I tried on different approaches:
 1.  convolutional and pooling layers = 1, 1
