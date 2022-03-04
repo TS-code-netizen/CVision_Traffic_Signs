@@ -1,11 +1,28 @@
 # Computer Vision: Traffic Signs
 
+## Summary
+A computer vision project using Convolutional Neural Network (CNN) to recognize and distinguish road signs. This project is a short implementation on developing an understanding with the environment using digital images, either stop signs, speed limit signs, yield signs, and more. 
+The dataset consists all the labelled road signs images derived from German Traffic Sign Recognition Benchmark (GTSRB) with its link:
+- https://benchmark.ini.rub.de/?section=gtsrb&subsection=news 
+A total of 43 different road signs will be used to build a neural network using Tensorflow 
 
+## Technologies used:
+```
+Python 
+sklearn.model_selection
+numpy
+```
+Algorithm/framework:
+```
+Tensorflow
+Convolutional Neural Network (CNN)
+Keras
+```
 
+## How this project works?
+The data will first be process and read into memory. The data will be split into testing and training set via #train_test_split from sklearn. Apply CNN to build a compiled neural network model based on different approaches (see below). This neural network then fitted in training set. The model will be used to evaluate neural network performance using testing data. 
 
-
-
-## Different Experimentation Approaches 
+## Different Experiment Approaches 
 
 For get_model function, I tried on different approaches:
 1.  convolutional and pooling layers = 1, 1
@@ -49,7 +66,7 @@ For get_model function, I tried on different approaches:
     Result: 333/333 - 2s - loss: 0.1301 - accuracy: 0.9687 - 2s/epoch
     Conclusion: Adding a hidden layer doubles up the accuracy for every iteration. 
 
-**To Conclude**
+## Conclude My Model Choice
 
 Model 6 is my final choice:
 - convolutional and pooling layers = 2, 2
@@ -57,3 +74,13 @@ Model 6 is my final choice:
 - pool sizes = (2, 2)
 - numbers and sizes of hidden layers = 2, 128
 - dropout = 0.5
+
+## Requirement:
+1. Install python3 in Visual Studio Code
+2. Install tensorflow
+``pip3 install tensorflow``
+3. Install sklearn
+``pip install -U scikit-learn``
+5. Install cv2
+``pip install opencv-python`` 
+7. Download the whole package in this master branch
