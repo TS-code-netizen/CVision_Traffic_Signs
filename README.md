@@ -50,7 +50,8 @@ For get_model function, I tried on different approaches:
     Conclusion: Adding a hidden layer doubles up the accuracy for every iteration. 
 
 **Conclusion**
-Model 6 is my final choice:
+
+Model 6 is my final choice
 - convolutional and pooling layers = 2, 2
 - numbers and sizes of filters for convolutional layers = 32, (3, 3)
 - pool sizes = (2, 2)
