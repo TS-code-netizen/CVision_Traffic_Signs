@@ -1,4 +1,4 @@
-# Computer Vision: Traffic Signs
+# Traffic Signs
 
 ## Summary
 A computer vision project using Convolutional Neural Network (CNN) to recognize and distinguish road signs. This project is a short implementation on developing an understanding with the environment using digital images, either stop signs, speed limit signs, yield signs, and more. 
